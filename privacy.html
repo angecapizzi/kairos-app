@@ -1,0 +1,70 @@
+<!doctype html>
+<html lang="it">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Kairos · Privacy</title>
+<link rel="icon" href="icon.png">
+<style>
+  :root { --bg: #F4F6FA; --text: #101828; --muted: #4A5468; --card: #FFFFFF; --line: #E3E7EF; --accent: #B7791F; }
+  @media (prefers-color-scheme: dark) {
+    :root { --bg: #101828; --text: #FFFFFF; --muted: #A3ACBC; --card: #1A2436; --line: #2A3650; --accent: #F6B73C; }
+  }
+  * { box-sizing: border-box; }
+  body { margin: 0; background: var(--bg); color: var(--text); font: 17px/1.55 -apple-system, BlinkMacSystemFont, "Helvetica Neue", Arial, sans-serif; }
+  main { max-width: 640px; margin: 0 auto; padding: 48px 16px 64px; }
+  header { display: flex; align-items: center; gap: 16px; margin-bottom: 32px; }
+  header img { width: 64px; height: 64px; border-radius: 14px; }
+  h1 { font-size: 30px; margin: 0; letter-spacing: -0.4px; }
+  .sub { color: var(--muted); margin: 2px 0 0; }
+  section { background: var(--card); border: 1px solid var(--line); border-radius: 16px; padding: 20px; margin-bottom: 16px; }
+  h2 { font-size: 19px; margin: 0 0 8px; }
+  p, li { margin: 0 0 10px; }
+  p:last-child, li:last-child { margin-bottom: 0; }
+  ul { margin: 0; padding-left: 20px; }
+  a { color: var(--accent); font-weight: 600; }
+  footer { color: var(--muted); font-size: 14px; margin-top: 24px; }
+</style>
+</head>
+<body>
+<main>
+  <header>
+    <img src="icon.png" alt="">
+    <div>
+      <h1>Informativa sulla privacy</h1>
+      <p class="sub"><a href="index.html">Kairos</a> · app personale di allenamento</p>
+    </div>
+  </header>
+
+  <section>
+    <h2>Chi usa Kairos</h2>
+    <p>Kairos è un'app personale usata soltanto dal suo autore. Non ha altri utenti, non ha un server e non raccoglie dati per sé: tutto resta sull'iPhone, sull'Apple Watch e nel Google Drive del proprietario.</p>
+  </section>
+
+  <section>
+    <h2>Cosa fa con Google Drive</h2>
+    <p>Con il permesso dato al momento del collegamento, Kairos:</p>
+    <ul>
+      <li>legge le schede di allenamento che il coach salva nella cartella <strong>Kairos/schede</strong>;</li>
+      <li>scrive nella cartella <strong>Kairos/dati</strong> i dati numerici degli allenamenti: sessioni, dati di ogni giorno, rapporti di fine ciclo, resoconti settimanali, attrezzatura e stato della scheda.</li>
+    </ul>
+    <p>Il permesso chiesto a Google è l'accesso a Google Drive, perché le schede create dal coach con un'altra app non sarebbero visibili con un permesso più ristretto. Kairos però limita ogni operazione alla sua cartella: non legge fuori da Kairos, non cancella, non sposta e non condivide file.</p>
+    <p>Su Drive non vanno mai foto, copie di sicurezza o credenziali. Le categorie di dati da non inviare (per esempio peso e misure) si possono escludere nelle impostazioni di Kairos.</p>
+  </section>
+
+  <section>
+    <h2>Con chi li condivide</h2>
+    <p>Con nessuno. Kairos non manda dati a server propri o di terzi, non usa pubblicità e non fa analisi. I file restano nel Google Drive del proprietario, che decide da solo chi può leggerli.</p>
+    <p>L'uso e il trasferimento ad altre app delle informazioni ricevute dalle API di Google rispettano le Google API Services User Data Policy, compresi i requisiti di Limited Use.</p>
+  </section>
+
+  <section>
+    <h2>Credenziali e revoca</h2>
+    <p>La chiave di accesso a Google resta nel Portachiavi dell'iPhone, solo su quel dispositivo. Il comando "Scollega" nelle impostazioni di Kairos revoca l'accesso e cancella la chiave; i file su Drive restano dove sono.</p>
+    <p>L'accesso si può togliere in qualsiasi momento anche dalle impostazioni di sicurezza dell'account Google, nella sezione delle app collegate.</p>
+  </section>
+
+  <footer>Ultimo aggiornamento: 28 settembre 2026</footer>
+</main>
+</body>
+</html>

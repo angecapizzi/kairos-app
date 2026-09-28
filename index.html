@@ -1,0 +1,58 @@
+<!doctype html>
+<html lang="it">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Kairos</title>
+<link rel="icon" href="icon.png">
+<style>
+  :root { --bg: #F4F6FA; --text: #101828; --muted: #4A5468; --card: #FFFFFF; --line: #E3E7EF; --accent: #B7791F; }
+  @media (prefers-color-scheme: dark) {
+    :root { --bg: #101828; --text: #FFFFFF; --muted: #A3ACBC; --card: #1A2436; --line: #2A3650; --accent: #F6B73C; }
+  }
+  * { box-sizing: border-box; }
+  body { margin: 0; background: var(--bg); color: var(--text); font: 17px/1.55 -apple-system, BlinkMacSystemFont, "Helvetica Neue", Arial, sans-serif; }
+  main { max-width: 640px; margin: 0 auto; padding: 48px 16px 64px; }
+  header { display: flex; align-items: center; gap: 16px; margin-bottom: 32px; }
+  header img { width: 64px; height: 64px; border-radius: 14px; }
+  h1 { font-size: 34px; margin: 0; letter-spacing: -0.5px; }
+  .sub { color: var(--muted); margin: 2px 0 0; }
+  section { background: var(--card); border: 1px solid var(--line); border-radius: 16px; padding: 20px; margin-bottom: 16px; }
+  h2 { font-size: 19px; margin: 0 0 8px; }
+  p { margin: 0 0 10px; }
+  p:last-child { margin-bottom: 0; }
+  a { color: var(--accent); font-weight: 600; }
+  footer { color: var(--muted); font-size: 14px; margin-top: 24px; }
+</style>
+</head>
+<body>
+<main>
+  <header>
+    <img src="icon.png" alt="">
+    <div>
+      <h1>Kairos</h1>
+      <p class="sub">App personale di allenamento per iPhone e Apple Watch</p>
+    </div>
+  </header>
+
+  <section>
+    <h2>Che cos'è</h2>
+    <p>Kairos è un'app personale: la usa soltanto il suo autore per i propri allenamenti. Non è in vendita, non è sull'App Store e non si può scaricare.</p>
+    <p>Guida gli allenamenti a casa (tempi, carichi, voce), tiene lo storico e i progressi e lavora con l'Apple Watch.</p>
+  </section>
+
+  <section>
+    <h2>Google Drive</h2>
+    <p>Kairos usa una cartella chiamata <strong>Kairos</strong> nel Google Drive del suo proprietario, per scambiare con il coach le schede di allenamento e i dati numerici degli allenamenti.</p>
+    <p>Non cancella, non sposta e non condivide file, e non tocca niente fuori da quella cartella.</p>
+  </section>
+
+  <section>
+    <h2>Privacy</h2>
+    <p>Quali dati usa Kairos, dove restano e come si toglie l'accesso: <a href="privacy.html">Informativa sulla privacy</a>.</p>
+  </section>
+
+  <footer>Ultimo aggiornamento: 28 settembre 2026</footer>
+</main>
+</body>
+</html>
